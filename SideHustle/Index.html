@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Sign Up
+    </title>
+    <style>
+        BODY{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #ffffff;
+            background-size: cover;
+            color: black !important;
+            font-size: 17px;
+        }
+        .center{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px 0;
+        }
+        .center h1{
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 40px 0;
+        }
+        *{
+           box-sizing: border-box; 
+        }
+        .container{
+            padding: 16px;
+            background-color: white;
+        }
+        input[type=text],input[type=email],input[type=number],input[type=password],input[type=confirm-password]{
+            width: 100%;
+            height: 5px;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            outline: none;
+            background: white;
+            border-radius: 5px;
+            font-size: 10px;
+        }
+        input[type=text],input[type=email],input[type=number],input[type=password],input[type=confirm-password]{
+            background-color: whitesmoke;
+            outline: none;
+            font-size: 10px; 
+            padding: 15px 10px;
+            
+        }
+      .registerbtn{
+            background-color: lavender;
+            color:black;
+            padding: 10px 10px;
+            margin: 20px 0;
+            cursor: pointer;
+            width: 40%;
+            opacity: 20;
+            font-size: 30px;
+            font-weight: bold;
+            border: 0;
+            border-radius: 10px
+
+        }
+        .registerbtn:hover{
+            opacity: 20; 
+
+        }
+        a{
+            color: green;
+        }
+        .login{
+            background: none;
+            text-align: center;
+        } 
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="center">
+    <form>
+        <h1>Sign Up</h1>
+        <p>Fill in the required spaces to creat an account</p>
+        <br />
+        <label>Name</label>
+        <input type="text" placeholder="Full Name" required/>
+        <br />
+        <label>Email</label>
+        <input type="email" placeholder="Email" required/>
+        <br />
+        <label>Phone Number</label>
+        <input type="number" placeholder="Number" required/>
+        <br />
+        <label>Password</label>
+        <input type="password" placeholder="Password" required/>
+        <br />
+        <label>Confirm-Password</label>
+        <input type="confirm-password" placeholder="Confirm-password" required/>
+        <br />
+      <p>
+            By creating an account you agree to our <a href="#"> Terms and Privacy</a>
+        </p>
+<button class="registerbtn">Submit</button>
+    <div class="login">
+        <p>Already have an account <a href="#">Login</a></p>
+    </form>
+    </div>
+</body>
+</html>
